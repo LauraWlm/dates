@@ -1,31 +1,25 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-main {
+body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
 }
-
-#belgium {
+body .belgium {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-content: center;
-  align-items: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 5vw;
+  font-size: 3vw;
   font-weight: 300;
   width: 100%;
   height: auto;
-  padding: 15vw 5vw 15vw 5vw;
   text-align: center;
   margin-top: 5%;
 }
-
-.year {
-  border: 1px solid red;
+body .belgium .date {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  justify-content: center;
+  width: 20vw;
+  height: 20vw;
 }/*# sourceMappingURL=style.css.map */
