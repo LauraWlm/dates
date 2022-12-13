@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+#belgium {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5vw;
+  font-weight: 300;
+  width: 100%;
+  height: auto;
+  padding: 15vw 5vw 15vw 5vw;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.year {
+  border: 1px solid red;
+}/*# sourceMappingURL=style.css.map */
